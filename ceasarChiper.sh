@@ -1,3 +1,4 @@
+
 #!/bin/bash
 				# This shell script takes a string
 				# in input and can encrypt it or
@@ -46,7 +47,7 @@ do
 			if [[ $y -lt 27 ]];
 			then
 				y="$((26-$y))"
-				echo $encrypted | tr $(printf %${y}s | tr ' ' '.')\A-Z A-ZA-Z
+				echo $phrase | tr $(printf %${y}s | tr ' ' '.')\A-Z A-ZA-Z
 			else
 				echo "ENTER A NUMBER BETWEEN 1 AND 26!"
 			fi
