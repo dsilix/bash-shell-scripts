@@ -44,7 +44,7 @@ loadHashGenTable(){
 			rtsort .
 			cd $folder
 		fi
-	if [[ $rispostaTable == Y ]];
+	if [[ $rispostaTable == n ]];
 		then
 		echo "Verranno usate le Rainbow Tables esistenti"
 		sleep 1
