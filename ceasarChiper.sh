@@ -21,7 +21,7 @@ do
 			encrypted=$(head -n 1 encrypted.txt)
 			echo -e "The encrypted message is: $encrypted\n"
 		else
-			echo "MMENTER A NUMBER BETWEEN 1 AND 26!"
+			echo "ENTER A NUMBER BETWEEN 1 AND 26!"
 		fi
 		;;
 	"Decrypt")
